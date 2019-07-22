@@ -1,0 +1,19 @@
+{
+    "name": "openfin-signal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Store.js",
+    "scripts": {
+        "build": "npm run clean && tsc -p tsconfig.json && node src/fileCopy.js",
+        "clean": "rimraf dist",
+        "deploy:local": "npm run build && cd dist && npm pack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "fs-extra": "^8.1.0",
+        "rimraf": "^2.6.3",
+        "typescript": "^3.5.3"
+    }
+}
