@@ -2,7 +2,7 @@
     "name": "openfin-service-signal",
     "version": "1.0.0",
     "description": "",
-    "main": "Store.js",
+    "main": "Signal.js",
     "scripts": {
         "build": "npm run clean && tsc -p tsconfig.json && node src/fileCopy.js",
         "clean": "rimraf dist",
@@ -12,6 +12,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@types/node": "^12.6.8",
         "fs-extra": "^8.1.0",
         "rimraf": "^2.6.3",
         "typescript": "^3.5.3"
