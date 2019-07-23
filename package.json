@@ -1,5 +1,5 @@
 {
-    "name": "openfin-signal",
+    "name": "openfin-service-signal",
     "version": "1.0.0",
     "description": "",
     "main": "Store.js",
